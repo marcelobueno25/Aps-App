@@ -1,10 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Input from './app/components/input/Input.js'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Gustavo02</Text>
+      <Text>Text Input</Text>
+      <Input/>
     </View>
   );
 }
